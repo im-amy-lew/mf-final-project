@@ -18,6 +18,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Work+Sans:wght@400&display=swap">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="./img/site.webmanifest">
     
     <!-- Custom CSS styles -->
     <link rel="stylesheet" href="./css/styles.css">
@@ -33,70 +39,72 @@
   <body>
 
     <header>
-      <nav>
-        <ul>
-          <a href="index.html">
-            <img src="./img/icon-light.png" alt="Sacramento Weavers' and Spinners' Guild logo" height="60px">
+      <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand active" aria-current="page" href="index.html">
+            <img src="./img/icon-light.png" alt="Sacramento Weavers' and Spinners' Guild logo" class="icon">
           </a>
-          <li>
-            <a href="about.html">
-              About
-            </a>
-          </li>
-          <li >
-            <a href="library.html">
-              Library
-            </a>
-          </li>
-          <li>
-            <a href="contact.html">
-              Contact
-            </a>
-          </li>
-        </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="">
+              <i class="fa-solid fa-bars"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="library.html">Library</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-    </header>
 
-    <main>
-
-      <section>
+      <!-- Jumbotron -->
+      <section class="jumbotron light d-flex justify-content-center align-items-center text-center">
         <h1>
           Sacramento Weavers' and Spinners' Guild
         </h1>
-        <p>
-          Weaving by SWSG member Jan DeShera
-        </p>
       </section>
+
+    </header>
+
+    <main class="container-fluid">
   
-      <section>
-        <div>
-          <div>
-            <p>
-              The Sacramento Weavers' and Spinners' Guild is a nonprofit organization that encourages growth in the art of weaving, spinning, and dyeing via the interchange of ideas, research, and contact with experts in the field. SWSG presents members with the opportunity to meet and share through meetings, workshops, and lectures. 
-            </p>
-            <p>
-              Guild meetings are currently held via Zoom in accordance with COVID-19 protocols.
-            </p>
-            <p>
-              (In-person meetings were usually held at the Shepard Garden and Art Center on the fourth Tuesday of each month at 10:00am, September through May, excluding December. Parking is free. Wheelchair accessible.)
-            </p>
-            <p>
-              The meetings begin with guild business, then proceed to educational programs. Bring your lunch; coffee and cookies are provided. After lunch, we return to presentations by featured speakers, which may include hands-on portions. Guests are welcome to meetings. A $3 guest fee is requested.  
-            </p>
-            <p>
-              Membership is $35 a year payable in May.
-            </p>
+      <section class="container p-3">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <p>
+                The Sacramento Weavers' and Spinners' Guild is a nonprofit organization that encourages growth in the art of weaving, spinning, and dyeing via the interchange of ideas, research, and contact with experts in the field. SWSG presents members with the opportunity to meet and share through meetings, workshops, and lectures. 
+              </p>
+              <p>
+                Guild meetings are currently held via Zoom in accordance with COVID-19 protocols.
+              </p>
+              <p>
+                In-person meetings are held at the Shepard Garden and Art Center on the fourth Tuesday of each month at 10:00am, September through May, excluding December. Parking is free. Wheelchair accessible.
+              </p>
+              <p>
+                The meetings begin with guild business, then proceed to educational programs. Bring your lunch; coffee and cookies are provided. After lunch, we return to presentations by featured speakers, which may include hands-on portions. Guests are welcome to meetings. A $3 guest fee is requested.  
+              </p>
+              <p>
+                Membership is $35 a year payable in May.
+              </p>
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.129651503976!2d-121.46060988465909!3d38.57686207962134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad09615a7a8fb%3A0x12293ec0921601a9!2sShepard%20Garden%20%26%20Art%20Center!5e0!3m2!1sen!2sus!4v1665685235796!5m2!1sen!2sus" width="100%" height="350px" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
-          <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.129651503976!2d-121.46060988465909!3d38.57686207962134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad09615a7a8fb%3A0x12293ec0921601a9!2sShepard%20Garden%20%26%20Art%20Center!5e0!3m2!1sen!2sus!4v1665685235796!5m2!1sen!2sus" width="100%" height="350px" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
       </section>
 
-      <hr>
+      <div class="page_divider"></div>
 
-      <section>
-        <h2>Upcoming Workshops</h2>
+      <section class="container p-3">
+        <h2 class="heading_2">Upcoming Workshops</h2>
         <p>
           Workshops are open to SWSG guild members. Due to COVID-19, in-person workshop attendance will require you to be masked.
         </p>
@@ -170,24 +178,24 @@
         </div>
       </section>
 
-      <hr>
+      <div class="page_divider"></div>
 
-      <section>
-        <h2>Announcements</h2>
+      <section class="container p-3">
+        <h2 class="heading_2">Announcements</h2>
         <div>
-          <p><a href="https://www.lambtown.org/" target="_blank">Lambtown</a> is coming up! For those who are entering the Skeins and Textiles competition, watch this video for tips from Kira Dulaney, judge of the knit and crochet textiles. Stephenie Gaustad will be judging handspun skeins and the felted and woven textiles. Hope to see you all there!</p>
+          <p><a href="https://www.lambtown.org/" target="_blank" class="link_1">Lambtown</a> is coming up! For those who are entering the Skeins and Textiles competition, watch this video for tips from Kira Dulaney, judge of the knit and crochet textiles. Stephenie Gaustad will be judging handspun skeins and the felted and woven textiles. Hope to see you all there!</p>
         </div>
-        <div>
-          <iframe width="600" height="400" src="https://www.youtube.com/embed/cHE1zQSZhVw"></iframe>
+        <div class="text-center">
+          <iframe src="https://www.youtube.com/embed/cHE1zQSZhVw" class="video"></iframe>
         </div>
       </section>
   
     </main>
   
-    <footer>
+    <footer class="footer light text-center">
       <div>
         <address>
-          <a href="mailto:davisspinner@gmail.com">Email Us</a><br>
+          <a href="mailto:davisspinner@gmail.com" class="link_2">Email Us</a><br>
           Sacramento Weavers' and Spinners' Guild<br>
           Shepard Garden and Arts Center<br>
           3330 McKinley Blvd.<br>
@@ -196,7 +204,7 @@
         <p>
           Copyright © 2022 Amy Lew
         </p>
-        <a href="https://www.facebook.com/groups/124902324243589/" target="_blank">
+        <a href="https://www.facebook.com/groups/124902324243589/" target="_blank" aria-label="Sacramento Weavers' and Spinners' Guild Facebook page">
           <i class="fa-brands fa-square-facebook fa-2x"></i>
         </a>
       </div>
