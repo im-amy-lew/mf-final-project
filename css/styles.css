@@ -13,8 +13,6 @@
 	--accent-2: #b8007c;
 	--accent-3: #ef7cb6;
 	--accent-4: #fca63d;
-  /* --bs-navbar-color: var(--accent-1);
-  --bs-navbar-hover-color: var(--accent-4); */
 }
 
 ::selection {
@@ -101,8 +99,6 @@ h1 {
 
 .page_divider {
 	border: 1px dotted var(--accent-4);
-	text-align: center;
-	/* margin: 20px 0; */
 }
 
 
