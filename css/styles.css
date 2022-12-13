@@ -22,10 +22,6 @@
 
 
 /* Navbar */
-.icon {
-  height: 4rem;
-}
-
 .navbar {
   background-color: var(--accent-1);
 }
@@ -178,7 +174,11 @@ form .btn-outline-primary:active {
 
 
 /* Media queries */
-@media only screen and (max-width: 725px) {
+@media only screen and (max-width: 768px) {
+	.icon {
+		height: 2rem;
+	}
+
   .video {
     width: 95%;
   }
@@ -188,7 +188,17 @@ form .btn-outline-primary:active {
 	}
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 768px) {
+	.icon {
+		height: 4rem;
+	}
+
+	.nav-link {
+		font-size: 1.25rem;
+	}
+}
+
+@media only screen and (min-width: 992px) {
 	.jumbotron {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/weaving.webp");
 		background-size: cover;
